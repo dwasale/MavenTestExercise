@@ -1,2 +1,7 @@
-package org.dwas;public class BasePage {
+package org.dwas;
+
+import org.openqa.selenium.WebDriver;
+
+public class BasePage {
+    protected static WebDriver driver;
 }
